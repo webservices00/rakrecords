@@ -28,6 +28,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <div id="header-main-all" className="text-center text-emerald-400 font-bold text-5xl">RákRecords</div>
         {children}
       </body>
     </html>
